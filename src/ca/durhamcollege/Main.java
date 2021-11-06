@@ -3,8 +3,9 @@ package ca.durhamcollege;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
-        System.out.println("Hello, World");
+        Person person = new Person("Tom", 40);
+        person.SaysHello();
+
 
     }
 
